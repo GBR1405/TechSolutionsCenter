@@ -1,0 +1,96 @@
+﻿@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Focus - Bootstrap Admin Dashboard</title>
+
+    <!-- Favicon -->
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+
+    <style>
+        /* Imagen de fondo */
+        body {
+            background: url("https://static.vecteezy.com/system/resources/previews/025/074/883/non_2x/concept-of-online-support-and-customer-service-hotline-for-contact-and-advice-customer-service-reception-for-initial-troubleshooting-communicating-and-responding-to-client-technical-support-free-photo.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Contenedor del formulario con mayor ancho */
+        .authincation-content {
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+            width: 500px; /* Aumenté el ancho */
+            padding: 40px; /* Más espacio interno */
+            background: rgba(255, 255, 255, 0.95); /* Fondo más opaco para mejor visibilidad */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+            /* Aplica la animación después de cargar la página */
+            .authincation-content.show {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        /* Campos de entrada más grandes */
+        .form-control {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        /* Botón más grande */
+        .btn-primary {
+            font-size: 18px;
+            padding: 12px;
+        }
+    </style>
+</head>
+
+<body class="h-100">
+    <div class="authincation h-100 d-flex justify-content-center align-items-center">
+        <div class="authincation-content">
+            <h4 class="text-center mb-4">Ingresa a tu cuenta</h4>
+            <form action="index.html">
+                <div class="form-group">
+                    <label><strong>Email</strong></label>
+                    <input type="email" class="form-control" placeholder="Ingresa tu correo">
+                </div>
+                <div class="form-group">
+                    <label><strong>Contraseña</strong></label>
+                    <input type="password" class="form-control" placeholder="Contraseña">
+                </div>
+                <div class="form-row d-flex justify-content-between mt-4 mb-2">
+                    <div class="form-group">
+                        <div class="form-check ml-2">
+                            <input class="form-check-input" type="checkbox" id="basic_checkbox_1">
+                            <label class="form-check-label" for="basic_checkbox_1">Recordar Usuario</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-block">Ingresar</button>
+                </div>
+            </form>
+            <div class="new-account mt-3 text-center">
+                <p>Don't have an account? <a class="text-primary" href="@Url.Action("Register", "Login")">Registrate</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Espera a que la página cargue para activar la animación
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector(".authincation-content").classList.add("show");
+        });
+    </script>
+
+
+</body>
+</html>
