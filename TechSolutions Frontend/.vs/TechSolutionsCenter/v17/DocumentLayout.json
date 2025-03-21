@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\login\\recuperarcontrasenna.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\login\\recuperarcontrasenna.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\login\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\login\\iniciarsesion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\shared\\_layoutexterno.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\views\\login\\registrarcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\views\\login\\registrarcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\frontend\\techsolutionscenter\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DEE9D94D-02CF-4902-BB0F-39395D9FD1E7}|TechSolutionsCenter\\TechSolutionsCenter.csproj|solutionrelative:techsolutionscenter\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "TechSolutionsCenter\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:10:09.052Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TechSolutionsCenter\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T17:48:27.95Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T17:48:40.453Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Program.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Program.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Program.cs",
+              "RelativeToolTip": "TechSolutionsCenter\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:08:55.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutExterno.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\_LayoutExterno.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Shared\\_LayoutExterno.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\_LayoutExterno.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Shared\\_LayoutExterno.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T21:01:10.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "TechSolutionsCenter\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:57:40.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T20:56:14.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecuperarContrasenna.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\RecuperarContrasenna.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Login\\RecuperarContrasenna.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\RecuperarContrasenna.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Login\\RecuperarContrasenna.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T21:17:17.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrarCuenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\RegistrarCuenta.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Login\\RegistrarCuenta.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\RegistrarCuenta.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Login\\RegistrarCuenta.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T20:52:36.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IniciarSesion.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\IniciarSesion.cshtml",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Views\\Login\\IniciarSesion.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Views\\Login\\IniciarSesion.cshtml",
+              "RelativeToolTip": "TechSolutionsCenter\\Views\\Login\\IniciarSesion.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T20:52:27.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RespuestaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Models\\RespuestaModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Models\\RespuestaModel.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Models\\RespuestaModel.cs",
+              "RelativeToolTip": "TechSolutionsCenter\\Models\\RespuestaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T20:45:13.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\appsettings.json",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\appsettings.json",
+              "RelativeToolTip": "TechSolutionsCenter\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T20:05:20.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TechSolutionsCenter\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TechSolutionsCenter\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T17:46:34.393Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

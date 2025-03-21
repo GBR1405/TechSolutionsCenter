@@ -1,0 +1,129 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "TechSolutionsCenterAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Login/RegistrarCuenta": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Login/IniciarSesion": {
+      "post": {
+        "tags": [
+          "Login"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UsuarioModel": {
+        "type": "object",
+        "properties": {
+          "IdUsuario": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "NombreUsuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Apellidos": {
+            "type": "string",
+            "nullable": true
+          },
+          "Telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "Direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Contrasenna": {
+            "type": "string",
+            "nullable": true
+          },
+          "IdGenero": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "IdRol": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "Token": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "apiKey",
+        "description": "Standard Authorization header using the Bearer scheme",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  }
+}
