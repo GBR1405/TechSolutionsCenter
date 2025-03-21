@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
               "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T21:59:51.854Z",
               "IsPinned": true,
@@ -60,8 +60,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T22:02:46.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T22:02:46.592Z"
             },
             {
               "$type": "Document",
@@ -73,8 +72,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:58:39.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:58:39.351Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:58:00.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:58:00.924Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:57:26.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:57:26.388Z"
             },
             {
               "$type": "Document",
@@ -112,8 +108,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:41:40.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:41:40.972Z"
             }
           ]
         }

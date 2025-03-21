@@ -1,19 +1,19 @@
 ﻿@model UsuarioModel
 
 @{
-    Layout = "~/Views/Shared/_LayoutExterno.cshtml";
+    Layout = null;
 }
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registro - TechSolutions</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Recuperar Contraseña - TechSolutions</title>
 
     <!-- Estilos -->
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 
     <style>
-        /* Fondo con imagen */
         body {
             background: url("https://static.vecteezy.com/system/resources/previews/025/074/883/non_2x/concept-of-online-support-and-customer-service-hotline-for-contact-and-advice-customer-service-reception-for-initial-troubleshooting-communicating-and-responding-to-client-technical-support-free-photo.jpg") no-repeat center center fixed;
             background-size: cover;
@@ -24,7 +24,6 @@
             overflow: hidden;
         }
 
-        /* Contenedor del formulario */
         .authincation-content {
             width: 500px;
             padding: 40px;
@@ -37,20 +36,25 @@
             transition: opacity 1s ease-in-out, transform 1s ease-in-out;
         }
 
-            /* Mostrar animación al cargar */
             .authincation-content.show {
                 opacity: 1;
                 transform: translateY(0);
             }
 
-        /* Campos de entrada más grandes */
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
         .form-control {
             font-size: 18px;
             padding: 12px;
             border-radius: 8px;
         }
 
-        /* Botón de registro */
         .btn-primary {
             font-size: 18px;
             padding: 12px;
@@ -58,60 +62,44 @@
             transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
         }
 
-            /* Efecto al pasar el mouse sobre el botón */
             .btn-primary:hover {
                 background: #0056b3;
                 transform: scale(1.05);
             }
 
-        /* Enlace de inicio de sesión */
         .new-account a {
             font-weight: bold;
             text-decoration: none;
         }
 
-            /* Efecto de animación en el enlace */
             .new-account a:hover {
                 text-decoration: underline;
             }
     </style>
 </head>
 
-<div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh">
-    <div class="d-flex flex-column justify-content-between">
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-10">
-                <div class="card card-default">
-                    <div class="card-header">
-                        <div class="app-brand w-100 d-flex justify-content-center border-bottom-0">
-                            <a class="w-auto pl-0" href="/index.html">
-                                <img src="~/img/logo.png" alt="Mono">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card-body px-5 pb-5 pt-0">
-                        <h4 class="text-dark text-center mb-5">Recuperar Contraseña</h4>
-                        <form action="/index.html">
-                            <div class="row">
-                                <div class="form-group col-md-12 mb-4">
-                                    <input type="text" class="form-control input-lg" asp-for="Email" placeholder="Correo">
-                                </div>
-
-                                <div class="col-md-12">
-                                    <button type="submit" class="btn btn-primary btn-pill mb-4">Enviar</button>
-
-                                    <p>
-                                        ¿Ya tienes una cuenta?
-                                        <a class="text-blue" href="@Url.Action("IniciarSesion","Login")">Inicia Sesión</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
+<body>
+    <div class="authincation-content">
+        <h4 class="text-dark text-center mb-5">Recuperar Contraseña</h4>
+        <form asp-controller="Login" asp-action="RecuperarContrasenna">
+            <div class="form-group">
+                <label><strong>Correo electrónico</strong></label>
+                <input type="text" class="form-control input-lg" asp-for="Email" />
             </div>
-        </div>
 
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary btn-pill mb-4">Enviar</button>
+            </div>
+        </form>
+
+        <div class="new-account mt-3">
+            <p>¿Ya tienes una cuenta? <a class="text-blue" href="@Url.Action("IniciarSesion", "Login")">Inicia sesión</a></p>
+        </div>
     </div>
-</div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector(".authincation-content").classList.add("show");
+        });
+    </script>
+</body>

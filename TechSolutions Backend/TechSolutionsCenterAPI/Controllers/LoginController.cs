@@ -21,6 +21,8 @@ namespace TechSolutionsCenterAPI.Controllers
             _configuration = configuration;
         }
 
+        //Registrar la cuenta
+
         [HttpPost]
         [Route("RegistrarCuenta")]
         public IActionResult RegistrarCuenta(UsuarioModel model)
@@ -47,12 +49,14 @@ namespace TechSolutionsCenterAPI.Controllers
                 else
                 {
                     respuesta.Indicador = false;
-                    respuesta.Mensaje = "Su información no se ha registrado correctamente";
+                    respuesta.Mensaje = "Su información no se ha registrado correctamente, intente más tarde";
                 }
 
                 return Ok(respuesta);
             }
         }
+
+        //Iniciar Sesión
 
         [HttpPost]
         [Route("IniciarSesion")]
@@ -75,7 +79,7 @@ namespace TechSolutionsCenterAPI.Controllers
                 else
                 {
                     respuesta.Indicador = false;
-                    respuesta.Mensaje = "Su información no se ha validado correctamente";
+                    respuesta.Mensaje = "Su información no se ha validado correctamente, intente más tarde";
                 }
 
                 return Ok(respuesta);
