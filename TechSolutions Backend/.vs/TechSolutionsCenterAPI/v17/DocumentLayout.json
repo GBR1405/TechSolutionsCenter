@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +15,16 @@
       "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +34,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAhwBgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:59:51.854Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
@@ -46,21 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:59:51.854Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\appsettings.json",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\appsettings.json",
@@ -73,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
@@ -81,25 +81,24 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:58:39.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:58:39.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T21:58:00.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "RespuestaModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
@@ -112,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Program.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Program.cs",
@@ -120,8 +119,7 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:41:40.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T21:41:40.972Z"
             }
           ]
         }

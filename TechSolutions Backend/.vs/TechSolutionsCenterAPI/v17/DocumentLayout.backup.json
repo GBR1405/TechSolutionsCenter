@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\sebas\\downloads\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,15 +44,23 @@
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
               "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAhwBgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T21:59:51.854Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a83394e3-39c2-4678-a3c8-364b69d78fd3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\appsettings.json",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\appsettings.json",
@@ -60,11 +68,12 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-20T22:02:46.592Z"
+              "WhenOpened": "2025-03-20T22:02:46.592Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
@@ -76,19 +85,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "ToolTip": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:58:00.924Z"
+              "WhenOpened": "2025-03-20T21:58:00.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "RespuestaModel.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
@@ -96,11 +106,12 @@
               "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T21:57:26.388Z"
+              "WhenOpened": "2025-03-20T21:57:26.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sebas\\Downloads\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Program.cs",
               "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Program.cs",

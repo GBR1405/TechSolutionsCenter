@@ -21,8 +21,7 @@ namespace TechSolutionsCenterAPI.Controllers
             _configuration = configuration;
         }
 
-        //Registrar la cuenta
-
+        // Registrar la cuenta
         [HttpPost]
         [Route("RegistrarCuenta")]
         public IActionResult RegistrarCuenta(UsuarioModel model)
@@ -32,15 +31,14 @@ namespace TechSolutionsCenterAPI.Controllers
                 var result = context.Execute("RegistrarCuenta",
                             new
                             {
-                                Nombre_Usuario = model.NombreUsuario,  
+                                Nombre_Usuario = model.NombreUsuario,
                                 model.Apellidos,
                                 model.Telefono,
                                 model.Direccion,
                                 model.Email,
                                 ID_Genero = model.IdGenero,
-                                ID_Rol = model.IdRol,
                                 model.Contrasenna
-                            });
+                            }, commandType: System.Data.CommandType.StoredProcedure);
 
                 var respuesta = new RespuestaModel();
 
@@ -56,38 +54,45 @@ namespace TechSolutionsCenterAPI.Controllers
             }
         }
 
-        //Iniciar Sesión
-
+        // Iniciar Sesión
         [HttpPost]
         [Route("IniciarSesion")]
         public IActionResult IniciarSesion(UsuarioModel model)
         {
             using (var context = new SqlConnection(_configuration.GetSection("ConnectionStrings:BDConnection").Value))
             {
-                var result = context.QueryFirstOrDefault<UsuarioModel>("IniciarSesion",
-                    new { model.Email, model.Contrasenna });
-
                 var respuesta = new RespuestaModel();
-
-                if (result != null)
+                try
                 {
-                    result.Token = GenerarToken(result.IdUsuario, result.IdRol);
+                    var result = context.QueryFirstOrDefault("IniciarSesion",
+                         new { model.Email, model.Contrasenna },
+                         commandType: System.Data.CommandType.StoredProcedure);
 
-                    respuesta.Indicador = true;
-                    respuesta.Datos = result;
+                    if (result != null && result.Indicador == 1)
+                    {
+                        result.Token = GenerarToken(result.IdUsuario, result.IdRol);
+                        respuesta.Indicador = true;
+                        respuesta.Datos = result;
+                    }
+                    else
+                    {
+                        respuesta.Indicador = false;
+                        respuesta.Mensaje = result?.Mensaje ?? "Error desconocido";
+                    }
+
                 }
-                else
+                catch (SqlException ex)
                 {
                     respuesta.Indicador = false;
-                    respuesta.Mensaje = "Su información no se ha validado correctamente, intente más tarde";
+                    respuesta.Mensaje = ex.Message;
                 }
 
                 return Ok(respuesta);
             }
         }
 
-        //Recuperar la contraseña
 
+        // Recuperar la contraseña
         private string GenerarToken(long IdUsuario, long IdRol)
         {
             string SecretKey = _configuration.GetSection("Variables:llaveToken").Value!;
@@ -106,6 +111,5 @@ namespace TechSolutionsCenterAPI.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
     }
 }

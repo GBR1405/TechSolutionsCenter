@@ -66,7 +66,7 @@ namespace TechSolutionsCenter.Controllers
                 {
                     var result = response.Content.ReadFromJsonAsync<RespuestaModel>().Result;
 
-                    if (result != null && result.Indicador)
+                    if (result != null && result.Indicador && result.Datos != null)
                     {
                         var datosResult = JsonSerializer.Deserialize<UsuarioModel>((JsonElement)result.Datos!);
 
@@ -77,6 +77,7 @@ namespace TechSolutionsCenter.Controllers
                         HttpContext.Session.SetString("IdRol", datosResult!.IdRol.ToString());
                         return RedirectToAction("Principal", "Login");
                     }
+
                 }
             }
 
