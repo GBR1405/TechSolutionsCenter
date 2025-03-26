@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "TechSolutionsCenterAPI.Controllers.LoginController",
+    "Method": "IniciarSesion",
+    "RelativePath": "api/Login/IniciarSesion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechSolutionsCenterAPI.Models.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechSolutionsCenterAPI.Controllers.LoginController",
+    "Method": "RegistrarCuenta",
+    "RelativePath": "api/Login/RegistrarCuenta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TechSolutionsCenterAPI.Models.UsuarioModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

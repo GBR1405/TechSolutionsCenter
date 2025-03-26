@@ -70,19 +70,24 @@ namespace TechSolutionsCenter.Controllers
                     {
                         var datosResult = JsonSerializer.Deserialize<UsuarioModel>((JsonElement)result.Datos!);
 
-                        HttpContext.Session.SetString("IdUsuario", datosResult!.IdUsuario.ToString());
-                        HttpContext.Session.SetString("NombreUsuario", datosResult!.NombreUsuario!);
-                        HttpContext.Session.SetString("Email", datosResult!.Email!);
-                        HttpContext.Session.SetString("IdGenero", datosResult!.IdGenero.ToString());
-                        HttpContext.Session.SetString("IdRol", datosResult!.IdRol.ToString());
-                        return RedirectToAction("Principal", "Login");
-                    }
+                        if (datosResult != null)
+                        {
+                            // Guardar solo si los valores no son nulos
+                            HttpContext.Session.SetString("IdUsuario", datosResult.IdUsuario.ToString() ?? "");
+                            HttpContext.Session.SetString("NombreUsuario", datosResult.NombreUsuario ?? "");
+                            HttpContext.Session.SetString("Email", datosResult.Email ?? "");
+                            HttpContext.Session.SetString("IdGenero", datosResult.IdGenero.ToString() ?? "");
+                            HttpContext.Session.SetString("IdRol", datosResult.IdRol.ToString() ?? "");
 
+                            return RedirectToAction("Index", "Home");
+                        }
+                    }
                 }
             }
 
             return View();
         }
+
 
         #endregion
 
