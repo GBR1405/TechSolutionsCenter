@@ -1,0 +1,240 @@
+﻿@model TechSolutionsCenter.Models.CasosModel
+@{
+    ViewData["Title"] = "Registro de Caso - TechSolutions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/AgregarCaso.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    @if (TempData["Mensaje"] != null)
+    {
+        <text>
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Registro Exitoso!',
+                    text: '@Html.Raw(TempData["Mensaje"])'
+                }).then(() => {
+                        window.location.href = '@Url.Action("ObtenerCasosPendientes", "Casos")';
+                });
+        </text>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <text>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: '@Html.Raw(TempData["Error"])'
+                });
+        </text>
+    }
+</script>
+
+<div class="full-width-container">
+    <h1 class="page-title">
+        <i class="fas fa-tools me-2"></i>Registro de Caso Técnico
+    </h1>
+
+    <div class="case-container">
+        <form id="casoForm" enctype="multipart/form-data" method="post">
+            <div class="row g-0 h-100">
+                <!-- Sección de imagen -->
+                <div class="col-lg-6 h-100">
+                    <div class="image-upload-area h-100">
+                        <h4><i class="fas fa-camera me-2"></i>Imagen del equipo</h4>
+                        <div class="upload-preview" id="imagePreview">
+                            <div class="text-center">
+                                <i class="fas fa-cloud-upload-alt upload-icon mb-3"></i>
+                                <p class="text-muted">Haz clic para seleccionar una imagen</p>
+                            </div>
+                        </div>
+                        <input type="file" id="Imagen" accept="image/*" style="display: none;" required>
+                        <button type="button" class="btn btn-upload mt-3" onclick="document.getElementById('Imagen').click()">
+                            <i class="fas fa-upload me-2"></i>Seleccionar Imagen
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sección del formulario -->
+                <div class="col-lg-6 h-100">
+                    <div class="form-section h-100">
+                        <h4 class="mb-4"><i class="fas fa-file-alt me-2"></i>Detalles del caso</h4>
+
+                        <div class="mb-3">
+                            <label for="Titulo" class="form-label">Título del problema*</label>
+                            <input type="text" class="form-control" id="Titulo" name="Titulo" placeholder="Ej: Pantalla no enciende" required>
+                            <span class="text-danger" id="tituloError"></span>
+                        </div>
+
+                        <div class="mb-3 flex-grow-1">
+                            <label for="Descripcion" class="form-label">Descripción detallada*</label>
+                            <textarea class="form-control h-100" id="Descripcion" name="Descripcion" rows="6"
+                                      placeholder="Describe el problema con detalle (qué ocurre, cuándo empezó, etc.)" required></textarea>
+                            <span class="text-danger" id="descripcionError"></span>
+                        </div>
+
+                        <hr class="my-4">
+
+                        <div class="mb-4">
+                            <label for="Estado" class="form-label">Estado actual del equipo*</label>
+                            <select class="form-select" id="Estado" name="Estado" required>
+                                <option value="">Seleccione un estado</option>
+                                <option value="N">Nuevo</option>
+                                <option value="P">Usado</option>
+                                <option value="R">Daños físicos mínimos</option>
+                                <option value="G">Daños que afectan al funcionamiento</option>
+                            </select>
+                            <span class="text-danger" id="estadoError"></span>
+                        </div>
+
+                        <input type="hidden" id="ImagenBytes" name="ImagenBytes">
+                        <input type="hidden" id="Fecha_Ingreso" name="Fecha_Ingreso" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")">
+                        <input type="hidden" id="ID_Usuario" name="ID_Usuario" value="1">
+
+                        <div class="mt-auto">
+                            <button type="submit" class="btn btn-submit btn-lg">
+                                <i class="fas fa-paper-plane me-2"></i>Registrar Caso
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Vista previa de la imagen
+        document.getElementById('Imagen').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            const preview = document.getElementById('imagePreview');
+
+            if (file) {
+                // Validar tamaño (5MB máximo)
+                if (file.size > 5 * 1024 * 1024) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Archivo demasiado grande',
+                        text: 'La imagen no debe exceder los 5MB'
+                    });
+                    this.value = '';
+                    resetPreview();
+                    return;
+                }
+
+                // Validar tipo de archivo
+                const validTypes = ['image/jpeg', 'image/png', 'image/gif'];
+                if (!validTypes.includes(file.type)) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Tipo de archivo no válido',
+                        text: 'Solo se permiten imágenes JPG, PNG o GIF'
+                    });
+                    this.value = '';
+                    resetPreview();
+                    return;
+                }
+
+                const reader = new FileReader();
+                reader.onload = function(event) {
+                    preview.innerHTML = `<img src="${event.target.result}" alt="Vista previa" class="img-fluid">`;
+                };
+                reader.readAsDataURL(file);
+            } else {
+                resetPreview();
+            }
+        });
+
+        function resetPreview() {
+            document.getElementById('imagePreview').innerHTML = `
+                <div class="text-center">
+                    <i class="fas fa-cloud-upload-alt upload-icon mb-3"></i>
+                    <p class="text-muted">Haz clic para seleccionar una imagen</p>
+                </div>`;
+        }
+
+        // Manejo del envío del formulario
+        document.getElementById('casoForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const imagen = document.getElementById('Imagen').files[0];
+            const titulo = document.getElementById('Titulo').value;
+            const descripcion = document.getElementById('Descripcion').value;
+            const estado = document.getElementById('Estado').value;
+
+            // Validación básica
+            if (!imagen) {
+                Swal.fire('Error', 'Por favor seleccione una imagen del equipo', 'error');
+                return;
+            }
+
+            if (!titulo || !descripcion || !estado) {
+                Swal.fire('Error', 'Por favor complete todos los campos obligatorios', 'error');
+                return;
+            }
+
+            // Mostrar carga
+            Swal.fire({
+                title: 'Procesando...',
+                allowOutsideClick: false,
+                didOpen: () => {
+                    Swal.showLoading();
+                }
+            });
+
+            try {
+                // Convertir imagen a bytes
+                const imagenBytes = await fileToBase64(imagen);
+                document.getElementById('ImagenBytes').value = imagenBytes;
+
+                // Enviar formulario tradicional
+                const formData = new FormData(document.getElementById('casoForm'));
+                const response = await fetch('@Url.Action("RegistrarCaso", "Casos")', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.redirected) {
+                    window.location.href = response.url;
+                    return;
+                }
+
+                if (response.redirected) {
+                    window.location.href = response.url;
+                } else {
+                    const result = await response.json();
+                    if (response.ok) {
+                        window.location.href = '@Url.Action("ObtenerCasosPendientes", "Casos")';
+                    } else {
+                        throw new Error(result || 'Error al registrar el caso');
+                    }
+                }
+            } catch (error) {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: error.message
+                });
+            }
+        });
+
+        // Función para convertir File a base64
+        function fileToBase64(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = () => {
+                    // Extraer solo la parte base64 (sin el prefijo data:image/...)
+                    const base64String = reader.result.split(',')[1];
+                    resolve(base64String);
+                };
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            });
+        }
+    </script>
+}

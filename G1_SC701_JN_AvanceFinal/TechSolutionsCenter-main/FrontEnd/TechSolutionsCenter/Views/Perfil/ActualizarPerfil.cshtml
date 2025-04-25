@@ -1,0 +1,29 @@
+﻿@model TechSolutionsCenter.Models.UsuarioModel
+
+@{
+    ViewData["Title"] = "Actualizar Perfil";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Actualizar Perfil</h2>
+    <div class="card shadow-sm p-4">
+        <form asp-action="ActualizarPerfil" method="post">
+            <input type="hidden" asp-for="ID_Usuario" />
+            <div class="form-group">
+                <label asp-for="Nombre_Usuario"><strong>Nombre</strong></label>
+                <input asp-for="Nombre_Usuario" class="form-control" />
+                <span asp-validation-for="Nombre_Usuario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellidos"><strong>Apellidos</strong></label>
+                <input asp-for="Apellidos" class="form-control" />
+                <span asp-validation-for="Apellidos" class="text-danger"></span>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a asp-action="Perfil" class="btn btn-secondary">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+            </div>
+        </form>
+
+    </div>
+</div>

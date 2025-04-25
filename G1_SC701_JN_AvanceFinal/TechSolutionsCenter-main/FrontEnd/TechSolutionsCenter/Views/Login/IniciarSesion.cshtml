@@ -1,0 +1,55 @@
+﻿@model UsuarioModel
+
+@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Iniciar Sesión - TechSolutions</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+    
+
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="particles-container">
+            <div class="particles"></div>
+        </div>
+
+        <div class="left-section">
+            <img src="https://landadesign.ir/fileserver/2022/02/istockphoto-1263074041-612x612.jpg" alt="Placeholder">
+        </div>
+
+        <div class="right-section">
+            <h3><strong>Iniciar Sesión</strong></h3>
+            <form asp-controller="Login" asp-action="IniciarSesion">
+                <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input type="email" class="form-control" asp-for="Email">
+                </div>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-control" asp-for="Contrasenna">
+                </div>
+                
+                <button type="submit" class="btn-primary">Ingresar</button>
+                <a href="@Url.Action("RecuperarContrasenna","Login")" class="text-link_C">Recuperar Contraseña</a>
+                <a href="@Url.Action("RegistrarCuenta","Login")" class="text-link_R">¿No tienes una cuenta? Regístrate</a>
+            </form>
+        </div>
+    </div>
+
+    <script src="~/js/Particulas.js" asp-append-version="true"></script>
+    <script src="~/js/Transicion.js"></script>
+</body>

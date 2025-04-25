@@ -1,0 +1,1013 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechSolutionsCenter.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechSolutionsCenter.4qjrb1fj8z.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\AgregarCaso.css",
+      "PackagePath": "staticwebassets\\css\\AgregarCaso.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\CasoAtendido.css",
+      "PackagePath": "staticwebassets\\css\\CasoAtendido.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\CasoPendienteUsuario.css",
+      "PackagePath": "staticwebassets\\css\\CasoPendienteUsuario.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\Casos.css",
+      "PackagePath": "staticwebassets\\css\\Casos.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\Recuperarcontra.css",
+      "PackagePath": "staticwebassets\\css\\Recuperarcontra.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\Registro.css",
+      "PackagePath": "staticwebassets\\css\\Registro.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\css\\aos.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\casosPendientes.css",
+      "PackagePath": "staticwebassets\\css\\casosPendientes.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\jqvmap\\css\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\css\\jqvmap\\css\\jqvmap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\jqvmap\\js\\jquery.vmap.australia.js",
+      "PackagePath": "staticwebassets\\css\\jqvmap\\js\\jquery.vmap.australia.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\jqvmap\\js\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\css\\jqvmap\\js\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\jqvmap\\js\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\css\\jqvmap\\js\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\jqvmap\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\css\\jqvmap\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\owl-carousel\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\owl-carousel\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl-carousel\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\owl-carousel\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\css\\owl-carousel\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\css\\templatemo.min.css",
+      "PackagePath": "staticwebassets\\css\\templatemo.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\css\\style.css",
+      "PackagePath": "staticwebassets\\icons\\avasta\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\fonts\\avasta.eot",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\fonts\\avasta.svg",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\fonts\\avasta.ttf",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\fonts\\avasta.woff",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\avasta\\fonts\\avasta.woff2",
+      "PackagePath": "staticwebassets\\icons\\avasta\\fonts\\avasta.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\font-awesome-old\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\icons\\font-awesome-old\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\css\\helveticaNeue.css",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\css\\helveticaNeue.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeue.eot",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeue.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeue.svg",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeue.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeue.ttf",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeue.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeue.woff",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeue.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeue.woff2",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeue.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.eot",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.svg",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.ttf",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.woff",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.woff2",
+      "PackagePath": "staticwebassets\\icons\\helveticaNeue\\fonts\\HelveticaNeueMed.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\fonts\\line-awesome.eot",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\line-awesome.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\fonts\\line-awesome.svg",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\line-awesome.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\fonts\\line-awesome.ttf",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\line-awesome.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\fonts\\line-awesome.woff",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\line-awesome.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\line-awesome\\fonts\\line-awesome.woff2",
+      "PackagePath": "staticwebassets\\icons\\line-awesome\\fonts\\line-awesome.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.svg",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\icons\\material-design-iconic-font\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.eot",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.svg",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.ttf",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff2",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Icons4c82.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot",
+      "PackagePath": "staticwebassets\\icons\\simple-line-icons\\fonts\\Simple-Line-Iconsd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\icons\\themify-icons\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\icons\\themify-icons\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\avatar\\1.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\avatar\\2.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\avatar\\3.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\avatar\\4.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\avatar\\5.png",
+      "PackagePath": "staticwebassets\\images\\avatar\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\card\\1.png",
+      "PackagePath": "staticwebassets\\images\\card\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\card\\2.png",
+      "PackagePath": "staticwebassets\\images\\card\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\index.png",
+      "PackagePath": "staticwebassets\\images\\index.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\images\\logo-text.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\product\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\1.png",
+      "PackagePath": "staticwebassets\\images\\profile\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\cover.jpg",
+      "PackagePath": "staticwebassets\\images\\profile\\cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\profile\\profile.png",
+      "PackagePath": "staticwebassets\\images\\profile\\profile.png"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\actions.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\actions.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\apps.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\apps.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\arrow_down.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\arrow_down.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\arrow_right.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\arrow_right.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\arrow_up.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\arrow_up.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\calendar.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\calendar_check.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\calendar_check.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\calendar_minus.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\calendar_minus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\calendar_plus.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\calendar_plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\chart.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\chart.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\chat.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\chat.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\clip.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\clip.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\close.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\close.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\close_menu.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\close_menu.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\cog.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\cog.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\contacts.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\contacts.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\dashboard.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\dashboard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\edit_profile.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\edit_profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\email.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\email.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\emo.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\emo.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_edit.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_excel.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_excel.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_list.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_list.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_plus.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_plus.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_report.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_report.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_text.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_text.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_user.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\file_word.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\file_word.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\forms.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\forms.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\invoice.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\invoice.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\microphone.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\microphone.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\money.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\money.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\more.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\more.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\notification.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\notification.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\plane.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\plane.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\profile.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\profile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\project.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\project.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\reload.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\reload.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\reports.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\reports.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\schedule.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\schedule.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\search.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\setting.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\setting.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\signout.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\signout.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\ui_element.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\ui_element.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\user.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\svg\\video_play.svg",
+      "PackagePath": "staticwebassets\\images\\svg\\video_play.svg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\10.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\16.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\17.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\images\\tab\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\tab\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\Particulas.js",
+      "PackagePath": "staticwebassets\\js\\Particulas.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\Transicion.js",
+      "PackagePath": "staticwebassets\\js\\Transicion.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\casosPendientes.js",
+      "PackagePath": "staticwebassets\\js\\casosPendientes.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\circle-progress.min.js",
+      "PackagePath": "staticwebassets\\js\\circle-progress.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\js\\custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\dashboard-1.js",
+      "PackagePath": "staticwebassets\\js\\dashboard-1.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\gauge.min.js",
+      "PackagePath": "staticwebassets\\js\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\global.min.js",
+      "PackagePath": "staticwebassets\\js\\global.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\js\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\morris.min.js",
+      "PackagePath": "staticwebassets\\js\\morris.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\quixnav-init.js",
+      "PackagePath": "staticwebassets\\js\\quixnav-init.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\raphael.min.js",
+      "PackagePath": "staticwebassets\\js\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\FrontEnd\\TechSolutionsCenter\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TechSolutionsCenter.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TechSolutionsCenter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TechSolutionsCenter.props",
+      "PackagePath": "build\\TechSolutionsCenter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TechSolutionsCenter.props",
+      "PackagePath": "buildMultiTargeting\\TechSolutionsCenter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TechSolutionsCenter.props",
+      "PackagePath": "buildTransitive\\TechSolutionsCenter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,363 @@
+﻿@{
+    ViewData["Title"] = "TechSolutions Center";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hola profe! Si lee esto, veras que el styles esta aca, y no en un css, por ahora esta asi porque si lo enviamos al css, se pierden algunos diseños
+No obstante para el final estara ya en un archivo css
+-->
+
+@section Styles {
+    <style>
+        :root {
+            --primary-color: #322ad3;
+            --secondary-color: #4bc4d3;
+            --dark-color: #1a1a2e;
+            --light-color: #f8f9fa;
+            --accent-color: #ff6b6b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-color);
+            line-height: 1.6;
+            background-color: #fff;
+        }
+
+        .main-content {
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        
+        .hero {
+            position: relative;
+            height: 90vh;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+        }
+
+            .hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+                opacity: 0.15;
+            }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            width: 100%;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+
+        /* Secciones */
+        .section-container {
+            width: 100%;
+            padding: 6rem 2rem;
+        }
+
+        .section-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 4rem;
+            color: var(--primary-color);
+            position: relative;
+        }
+
+            .section-title::after {
+                content: '';
+                display: block;
+                width: 80px;
+                height: 4px;
+                background: var(--secondary-color);
+                margin: 1rem auto;
+            }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+        }
+
+        /* Services Grid - Ajustado para evitar estiramiento */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            align-items: stretch;
+        }
+
+        .service-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .service-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Tarjetas */
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem 2rem;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+            .card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .service-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+            .service-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+
+        .service-card:hover .service-img img {
+            transform: scale(1.05);
+        }
+
+        .service-content {
+            padding: 2rem;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .cta::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+                opacity: 0.1;
+            }
+
+        /* Botones */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: var(--accent-color);
+            color: white;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+
+            .btn-primary:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 20px rgba(255, 107, 107, 0.6);
+                background-color: #ff5252;
+            }
+
+        .btn-white {
+            background-color: white;
+            color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+            .btn-white:hover {
+                transform: translateY(-3px);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+                background-color: #f8f9fa;
+            }
+
+        /* Responsive */
+        @@media (max-width: 768px) {
+            .hero {
+                height: auto;
+                padding: 6rem 1rem;
+            }
+
+                .hero h1 {
+                    font-size: 2.5rem;
+                }
+
+                .hero p {
+                    font-size: 1.2rem;
+                }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .section-container {
+                padding: 4rem 1rem;
+            }
+        }
+    </style>
+}
+
+<div class="main-content">
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Soluciones Tecnológicas a tu Alcance</h1>
+            <p>Expertos en reparación y mantenimiento de equipos tecnológicos. Garantizamos el máximo rendimiento de tus dispositivos.</p>
+            <a href="@Url.Action("AgregarCaso", "Casos")" class="btn btn-primary">Reportar un Problema</a>
+        </div>
+    </section>
+
+    <section class="features section-container">
+        <div class="section-inner">
+            <h2 class="section-title">Nuestras Ventajas</h2>
+            <div class="features-grid">
+                <div class="card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Respuesta Rápida</h3>
+                    <p>Atendemos tus solicitudes en menos de 24 horas con nuestro equipo de técnicos especializados.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garantía Extendida</h3>
+                    <p>Todas nuestras reparaciones incluyen garantía de 6 meses para tu tranquilidad.</p>
+                </div>
+                <div class="card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Expertos Certificados</h3>
+                    <p>Contamos con técnicos certificados por los principales fabricantes de hardware y software.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services section-container">
+        <div class="section-inner">
+            <h2 class="section-title">Servicios Destacados</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Reparación de móviles">
+                    </div>
+                    <div class="service-content">
+                        <h3>Reparación de Dispositivos Móviles</h3>
+                        <p>Solucionamos problemas de pantallas, baterías, software y más en smartphones y tablets.</p>
+                        <a href="#" class="btn btn-white" style="margin-top: auto;">Saber más</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1526&q=80" alt="Mantenimiento de laptops">
+                    </div>
+                    <div class="service-content">
+                        <h3>Mantenimiento de Laptops</h3>
+                        <p>Limpieza interna, cambio de pasta térmica, actualizaciones y optimización de sistema.</p>
+                        <a href="#" class="btn btn-white" style="margin-top: auto;">Saber más</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Soporte empresarial">
+                    </div>
+                    <div class="service-content">
+                        <h3>Soporte Técnico Empresarial</h3>
+                        <p>Soluciones integrales para empresas con planes personalizados según tus necesidades.</p>
+                        <a href="#" class="btn btn-white" style="margin-top: auto;">Saber más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta section-container">
+        <div class="section-inner">
+            <h2 class="section-title" style="color: white;">¿Listo para resolver tus problemas tecnológicos?</h2>
+            <p style="color: white; margin-bottom: 2rem;">Nuestro equipo está preparado para ayudarte con cualquier problema que tengas con tus dispositivos.</p>
+            <a href="@Url.Action("IniciarSesion", "Login")" class="btn btn-white">Contactar a un Técnico</a>
+        </div>
+    </section>
+</div>
+

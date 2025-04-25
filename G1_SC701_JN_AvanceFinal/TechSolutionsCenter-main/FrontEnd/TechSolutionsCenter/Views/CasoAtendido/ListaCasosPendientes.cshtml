@@ -1,0 +1,186 @@
+﻿@model List<TechSolutionsCenter.Models.CasosModel>
+@{
+    ViewData["Title"] = "Casos Pendientes - TechSolutions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/casosPendientes.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+<div class="full-width-container">
+    <div class="header-container text-center mb-5">
+        <h1 class="page-title">
+            <i class="fas fa-clipboard-list me-2"></i>Casos Pendientes
+        </h1>
+        <p class="page-subtitle">Gestión de equipos pendientes de entrega</p>
+    </div>
+
+    <div class="card cases-card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table id="casosTable" class="table table-hover table-striped" style="width:100%">
+                    <thead class="table-header">
+                        <tr>
+                            <th>Nombre de usuario</th>
+                            <th>Titulo</th>
+                            <th>Descripción</th>
+                            <th>Estado</th>
+                            <th>Entregar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var caso in Model)
+                        {
+                            <tr>
+                                <td>@($"{caso.Nombre_Usuario} {caso.Apellidos}")</td>
+                                <td>@caso.Titulo</td>
+                                <td>@(caso.Descripcion.Length > 50 ? caso.Descripcion.Substring(0, 50) + "..." : caso.Descripcion)</td>
+                                <td>
+                                    <span class="estado-badge @GetEstadoClass(caso.Estado)">
+                                        @GetEstadoText(caso.Estado)
+                                    </span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-sm btn-success deliver-btn" data-id="@caso.ID_Caso" title="Marcar como Entregado">
+                                        <i class="fas fa-check-circle"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // Inicializar DataTable
+            var table = $('#casosTable').DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/es-ES.json'
+                },
+                responsive: true,
+                dom: '<"top"lf>rt<"bottom"ip><"clear">',
+                columnDefs: [
+                    { targets: [0, 1], width: '25%' },
+                    { targets: [2], width: '15%' },
+                    { targets: [3], width: '15%' },
+                    { targets: [4], width: '10%', orderable: false, searchable: false }
+                ]
+            });
+
+            // Delegación de eventos para el botón de entregar
+                           // En tu sección de scripts de la vista
+        $(document).on('click', '.deliver-btn', function() {
+            const casoId = $(this).data('id');
+
+            Swal.fire({
+                title: '¿Confirmar entrega?',
+                text: "¿Estás seguro de marcar este equipo como entregado?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Sí, marcar como entregado',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '@Url.Action("EquipoEntregado", "CasoAtendido")',
+                        type: 'POST',
+                        contentType: 'application/json',
+                        data: JSON.stringify({ id: casoId }),
+                        success: function(response) {
+                            // Manejar respuesta
+                        },
+                        error: function(xhr) {
+                            // Manejar error
+                        }
+                    });
+                }
+            });
+        });
+
+        });
+
+                $(document).ready(function () {
+            $('#casosTable').on('click', '.deliver-btn', function () {
+                console.log("Botón de entregar clickeado");
+
+                const casoId = $(this).data('id');
+                const button = $(this);
+
+                // Confirmación con alerta nativa
+                const confirmar = window.confirm("¿Estás seguro de marcar este equipo como entregado?");
+                if (!confirmar) return;
+
+                // Mostrar icono de carga
+                button.prop('disabled', true);
+                button.html('<i class="fas fa-spinner fa-spin"></i>');
+
+                // Llamada AJAX
+                $.ajax({
+                    url: '@Url.Action("EquipoEntregado", "CasoAtendido")',
+                    type: 'POST',
+                    data: { id: casoId },
+                    success: function (response) {
+                        console.log(response); // Debug de la respuesta del servidor
+                        if (response.success) {
+                            alert("El equipo ha sido marcado como entregado correctamente.");
+                            if (response.redirectUrl) {
+                                window.location.href = response.redirectUrl;
+                            }
+                        } else {
+                            alert(response.message || "Ocurrió un error al procesar la solicitud.");
+                        }
+                    },
+                    error: function () {
+                        alert("No se pudo completar la operación.");
+                    },
+                    complete: function () {
+                        button.prop('disabled', false);
+                        button.html('<i class="fas fa-check-circle"></i>');
+                    }
+                });
+            });
+        });
+
+    </script>
+}
+
+
+@functions {
+    string GetEstadoClass(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "new",
+            'P' => "used",
+            'R' => "minor-damage",
+            'G' => "functional-damage",
+            _ => ""
+        };
+    }
+
+    string GetEstadoText(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "Nuevo",
+            'P' => "Usado",
+            'R' => "Daños mínimos",
+            'G' => "Daños fisico que afectan a la funcionalidades",
+            _ => "Desconocido"
+        };
+    }
+}

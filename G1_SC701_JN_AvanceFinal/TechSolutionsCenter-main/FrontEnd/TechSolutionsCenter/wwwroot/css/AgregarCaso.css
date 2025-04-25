@@ -1,0 +1,146 @@
+﻿:root {
+    --primary-color: #322ad3;
+    --secondary-color: #4bc4d3;
+    --light-bg: #f8f9fa;
+    --dark-text: #343a40;
+}
+
+.full-width-container {
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    padding: 20px 20px 60px; /* Aumenté el padding inferior */
+    background-color: var(--light-bg);
+    min-height: calc(100vh - 180px); /* Ajusté esta medida */
+    box-sizing: border-box;
+}
+
+.case-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    height: auto; /* Cambié de 100% a auto */
+    margin-bottom: 30px; /* Añadí margen inferior */
+}
+
+.image-upload-area {
+    padding: 2rem;
+    border-right: 1px solid #eee;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #f8fafc;
+}
+
+.upload-preview {
+    width: 100%;
+    height: 400px;
+    background-color: #f5f7fa;
+    border: 2px dashed #d1d5db;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+    .upload-preview img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+
+.upload-icon {
+    font-size: 3rem;
+    color: #9ca3af;
+}
+
+.form-section {
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    margin-bottom: 2rem;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s;
+    font-size: 16px;
+}
+
+    .form-control:focus, .form-select:focus {
+        border-color: var(--secondary-color);
+        box-shadow: 0 0 0 0.25rem rgba(75, 196, 211, 0.25);
+    }
+
+.btn-submit {
+    background: #29238f;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    transition: all 0.3s;
+    width: 100%;
+    font-size: 18px;
+    color: snow;
+    margin-top: 20px; /* Añadí margen superior */
+}
+
+    .btn-submit:hover {
+        background: var(--secondary-color);
+        transform: translateY(-2px);
+    }
+
+.btn-upload {
+    background: #e2e8f0;
+    color: var(--dark-text);
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    width: 100%;
+    font-size: 16px;
+}
+
+    .btn-upload:hover {
+        background: #cbd5e1;
+    }
+
+/* Nuevos estilos añadidos */
+.form-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-footer {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+@media (max-width: 992px) {
+    .image-upload-area {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    .upload-preview {
+        height: 300px;
+    }
+
+    .full-width-container {
+        padding: 15px 15px 50px;
+        min-height: calc(100vh - 160px);
+    }
+}

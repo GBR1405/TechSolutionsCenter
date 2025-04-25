@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\casoatendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\casoatendidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\perfilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\articulocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\casoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\casoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\servicios\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\servicios\\general.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\casoatendidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\casoatendidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\articulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\articulomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\inventariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\inventariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\casosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\casosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\servicios\\igeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\servicios\\igeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\models\\respuestamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|c:\\users\\usuario\\documents\\techsolutionscenter-main\\techsolutionscenter-main\\backend\\techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{181EF74D-0179-4802-9114-122A29AC3631}|TechSolutionsCenterAPI\\TechSolutionsCenterAPI.csproj|solutionrelative:techsolutionscenterapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAcwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:59:51.854Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticuloModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\ArticuloModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\ArticuloModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\ArticuloModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\ArticuloModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:55:07.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\InventarioModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\InventarioModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\InventarioModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\InventarioModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:44:55.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CasoAtendidoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\CasoAtendidoModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\CasoAtendidoModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\CasoAtendidoModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\CasoAtendidoModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T19:36:24.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGeneral.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Servicios\\IGeneral.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Servicios\\IGeneral.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Servicios\\IGeneral.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Servicios\\IGeneral.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:13:46.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CasosModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\CasosModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\CasosModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\CasosModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\CasosModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:56:26.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "General.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Servicios\\General.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Servicios\\General.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Servicios\\General.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Servicios\\General.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T09:10:49.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CasoAtendidoController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\CasoAtendidoController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\CasoAtendidoController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\CasoAtendidoController.cs*",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\CasoAtendidoController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T21:34:47.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\ErrorModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\ErrorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T20:03:56.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T19:45:06.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticuloController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ArticuloController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\ArticuloController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ArticuloController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\ArticuloController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:57:43.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\InventarioController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\InventarioController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\InventarioController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\InventarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:44:39.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CasosController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\CasosController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\CasosController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\CasosController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\CasosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:24:31.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PerfilController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\PerfilController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\PerfilController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\PerfilController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\PerfilController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T15:18:46.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\appsettings.json",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-20T22:02:46.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Controllers\\ErrorController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:58:39.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:58:00.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RespuestaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Models\\RespuestaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:57:26.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TechSolutionsCenterAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TechSolutionsCenter-main\\TechSolutionsCenter-main\\BackEnd\\TechSolutionsCenterAPI\\Program.cs",
+              "RelativeToolTip": "TechSolutionsCenterAPI\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T21:41:40.972Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+﻿@{
+    ViewData["Title"] = "Sobre Nosotros - TechSolutions Center";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hola profe! Si lee esto, veras que el styles esta aca, y no en un css, por ahora esta asi porque si lo enviamos al css, se pierden algunos diseños
+No obstante para el final estara ya en un archivo css
+-->
+
+@section Styles {
+    <style>
+        :root {
+            --primary-color: #322ad3;
+            --secondary-color: #4bc4d3;
+            --dark-color: #1a1a2e;
+            --light-color: #f8f9fa;
+            --accent-color: #ff6b6b;
+        }
+
+        .about-hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 8rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .about-hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+                opacity: 0.15;
+            }
+
+        .about-hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .about-hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .mission-vision {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 4rem auto;
+            max-width: 1200px;
+        }
+
+        .mission-card, .vision-card {
+            flex: 1;
+            min-width: 300px;
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        }
+
+        .mission-card {
+            border-top: 5px solid var(--primary-color);
+        }
+
+        .vision-card {
+            border-top: 5px solid var(--secondary-color);
+        }
+
+        .story-section {
+            background-color: #f9f9f9;
+            padding: 6rem 0;
+        }
+
+        .story-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 3rem;
+        }
+
+        .story-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .story-image {
+            flex: 1;
+            min-width: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        }
+
+            .story-image img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+        .team-section {
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .team-member {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+            .team-member:hover {
+                transform: translateY(-10px);
+            }
+
+        .team-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1.5rem;
+            overflow: hidden;
+            border: 5px solid var(--light-color);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+            .team-photo img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .values-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+        }
+
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .value-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .value-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+
+        @@media (max-width: 768px) {
+            .about-hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .about-hero p {
+                font-size: 1.1rem;
+            }
+
+            .mission-vision {
+                flex-direction: column;
+            }
+
+            .story-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+}
+
+<div class="about-hero">
+    <div class="about-hero-content">
+        <h1>Nuestra Historia, Tu Confianza</h1>
+        <p>En TechSolutions Center, estamos revolucionando la industria de reparación tecnológica con transparencia, calidad y honestidad.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="mission-vision">
+        <div class="mission-card">
+            <h2>Nuestra Misión</h2>
+            <p>Proveer soluciones tecnológicas confiables y asequibles, eliminando las prácticas deshonestas que plagan la industria. Nos comprometemos a ser transparentes en cada diagnóstico y reparación.</p>
+        </div>
+        <div class="vision-card">
+            <h2>Nuestra Visión</h2>
+            <p>Convertirnos en el referente nacional de confianza en reparación tecnológica, donde los clientes se sientan seguros y valorados, no estafados.</p>
+        </div>
+    </div>
+</div>
+
+<section class="story-section">
+    <div class="story-content">
+        <div class="story-text">
+            <h2>¿Por qué nacimos?</h2>
+            <p>TechSolutions Center fue fundada en 2022 por un grupo de ingenieros frustrados con el estado de la industria de reparación. Tras años de ver cómo colegas inflaban precios, diagnosticaban falsos problemas o usaban componentes de baja calidad, decidimos crear una alternativa ética.</p>
+            <p>Nuestro modelo se basa en tres pilares fundamentales:</p>
+            <ul>
+                <li><strong>Diagnósticos honestos:</strong> No inventamos problemas que no existen</li>
+                <li><strong>Precios justos:</strong> Sin cargos ocultos ni sorpresas al final</li>
+                <li><strong>Calidad garantizada:</strong> Usamos solo componentes originales o de calidad equivalente</li>
+            </ul>
+        </div>
+        <div class="story-image">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Equipo trabajando">
+        </div>
+    </div>
+</section>
+
+<section class="team-section">
+    <h2>Conoce a Nuestro Equipo</h2>
+    <p>Profesionales certificados comprometidos con la excelencia</p>
+
+    <div class="team-grid">
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="https://cdn-icons-png.flaticon.com/512/1995/1995515.png" alt="María González">
+            </div>
+            <h3>Sebastian Barboza</h3>
+            <p>Programador Backend del sistema</p>
+            <p>3 años en diseños de sistemas</p>
+        </div>
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="https://static.vecteezy.com/system/resources/previews/041/596/743/non_2x/correct-user-creative-icon-design-vector.jpg" alt="Carlos Mendoza">
+            </div>
+            <h3>Yiqi Xie Lei</h3>
+            <p>Diseñadora tecnica</p>
+            <p>Especialista en diseños de interfaces</p>
+        </div>
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="https://cdn-icons-png.flaticon.com/512/1118/1118366.png" alt="Laura Jiménez">
+            </div>
+            <h3>Nicole Gomez</h3>
+            <p>Administradora de inventario y reparacion</p>
+            <p>Amante de la tecnologia y haz en saber lo mejor para tu equipo</p>
+        </div>
+        <div class="team-member">
+            <div class="team-photo">
+                <img src="https://img.freepik.com/premium-vector/account-repair-icon_192037-3660.jpg" alt="Javier Rojas">
+            </div>
+            <h3>Gabriel Ramirez</h3>
+            <p>Técnico y programador Senior</p>
+            <p>Listo para lo que necesites</p>
+        </div>
+    </div>
+</section>
+
+<section class="values-section">
+    <h2>Nuestros Valores</h2>
+    <p>Lo que nos diferencia de la competencia</p>
+
+    <div class="values-grid">
+        <div class="value-card">
+            <div class="value-icon">
+                <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Honestidad</h3>
+            <p>Diagnósticos reales sin inventar problemas. Te decimos exactamente lo que necesita tu dispositivo.</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Transparencia</h3>
+            <p>Precios claros desde el inicio. Sin cargos ocultos ni sorpresas desagradables.</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">
+                <i class="fas fa-medal"></i>
+            </div>
+            <h3>Calidad</h3>
+            <p>Usamos solo componentes originales o de calidad equivalente certificada.</p>
+        </div>
+        <div class="value-card">
+            <div class="value-icon">
+                <i class="fas fa-heart"></i>
+            </div>
+            <h3>Pasión</h3>
+            <p>Amamos la tecnología y nos apasiona devolver la vida a tus dispositivos.</p>
+        </div>
+    </div>
+</section>
+
+

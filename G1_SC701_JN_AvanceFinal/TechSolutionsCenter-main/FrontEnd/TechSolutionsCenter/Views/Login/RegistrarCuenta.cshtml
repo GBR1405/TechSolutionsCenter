@@ -1,0 +1,90 @@
+﻿@model UsuarioModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Registro - TechSolutions</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/Registro.css" asp-append-version="true" />
+
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Contenedor de partículas -->
+    <div class="particles-container">
+        <div class="particles"></div>
+    </div>
+
+    <div class="container">
+        <div class="left-section">
+            <img src="https://www.bctm.una.ac.cr/images/Universidad/recursos-electronicos/usuario.jpg" alt="Placeholder">
+        </div>
+
+        <div class="right-section">
+            <h3>Registrarse</h3>
+            <form asp-controller="Login" asp-action="RegistrarCuenta">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nombre de usuario</label>
+                        <input type="text" class="form-control" asp-for="Nombre_Usuario">
+                    </div>
+                    <div class="form-group">
+                        <label>Apellidos</label>
+                        <input type="text" class="form-control" asp-for="Apellidos">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Correo electrónico</label>
+                        <input type="email" class="form-control" asp-for="Email">
+                    </div>
+                    <div class="form-group">
+                        <label>Contraseña</label>
+                        <input type="password" class="form-control" asp-for="Contrasenna">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Teléfono</label>
+                        <input type="text" class="form-control" asp-for="Telefono">
+                    </div>
+                    <div class="form-group">
+                        <label>Dirección</label>
+                        <input type="text" class="form-control" asp-for="Direccion">
+                    </div>
+                </div>
+
+                <div class="form-group_DD">
+                    <label><strong>Género</strong></label>
+                    <select class="form-control" asp-for="ID_Genero" required>
+                        <option value="" disabled selected>-- Seleccione su género --</option>
+                        <option value="1"><i class="fas fa-mars mr-2"></i>Hombre</option>
+                        <option value="2"><i class="fas fa-venus mr-2"></i>Mujer</option>
+                        <option value="3"><i class="fas fa-genderless mr-2"></i>Indefinido</option>
+                    </select>
+                    <span asp-validation-for="ID_Genero" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn-primary">Registrarse</button>
+                <a href="@Url.Action("IniciarSesion","Login")" class="text-link">¿Ya tienes una cuenta? Inicia sesión</a>
+            </form>
+        </div>
+    </div>
+
+    <!-- Script de partículas -->
+    <script src="~/js/Particulas.js" asp-append-version="true"></script>
+    <script src="~/js/Transicion.js"></script>
+</body>
+</html>

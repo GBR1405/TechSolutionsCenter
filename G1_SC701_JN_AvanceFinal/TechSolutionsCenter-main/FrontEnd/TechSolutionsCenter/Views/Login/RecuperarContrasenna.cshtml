@@ -1,0 +1,71 @@
+﻿@model UsuarioModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Recuperar Contraseña - TechSolutions</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/Recuperarcontra.css" asp-append-version="true" />
+</head>
+
+
+
+<body>
+    <!-- Contenedor de partículas -->
+    <div class="particles-container">
+        <div class="particles"></div>
+    </div>
+
+    <div class="container">
+        <div class="left-section">
+            <img src="https://static.vecteezy.com/system/resources/previews/025/074/883/non_2x/concept-of-online-support-and-customer-service-hotline-for-contact-and-advice-customer-service-reception-for-initial-troubleshooting-communicating-and-responding-to-client-technical-support-free-photo.jpg" alt="Recuperar contraseña">
+        </div>
+
+        <div class="right-section">
+            <h3>Recuperar Contraseña</h3>
+            <form asp-controller="Login" asp-action="RecuperarContrasenna">
+                <div class="form-group">
+                    <label>Correo electrónico</label>
+                    <input type="email" class="form-control" asp-for="Email" placeholder="Ingresa tu correo electrónico">
+                </div>
+
+                <button type="submit" class="btn-primary">
+                    <i class="fas fa-paper-plane mr-2"></i>Enviar Instrucciones
+                </button>
+            </form>
+
+            <div class="text-center mt-4">
+                <a href="@Url.Action("IniciarSesion","Login")" class="text-link">
+                    <i class="fas fa-arrow-left mr-2"></i>Volver a Iniciar Sesión
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script de partículas y animaciones -->
+    <script src="~/js/Particulas.js" asp-append-version="true"></script>
+    <script src="~/js/Transicion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        @if (TempData["Mensaje"] != null)
+        {
+            <text>
+                        Swal.fire({
+                            icon: 'error',
+                            title: '¡Hubo un problema!',
+                            text: '@TempData["Mensaje"]'
+                        });
+            </text>
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+﻿@model IEnumerable<TechSolutionsCenter.Models.CasosModel>
+@{
+    ViewData["Title"] = "Casos Pendientes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/CasoPendienteUsuario.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<div class="cases-container">
+    <h1 class="page-title">
+        <i class="fas fa-tasks me-2"></i>Casos Pendientes
+    </h1>
+
+    <div class="status-tabs-container">
+        <div class="status-tabs">
+            <button class="tab-button active" data-tab="pendientes">
+                <i class="fas fa-clock"></i> Pendientes de Envío
+            </button>
+            <button class="tab-button" data-tab="proceso">
+                <i class="fas fa-tools"></i> En Proceso
+            </button>
+            <div class="tab-indicator"></div>
+        </div>
+    </div>
+
+    <div class="tab-content active" id="pendientes">
+        @{
+            var pendientes = Model.Where(c => c.Fecha_Ingreso.HasValue && c.Fecha_Ingreso.Value.Year < 2000).ToList();
+        }
+        @if (pendientes.Any())
+        {
+            @foreach (var caso in pendientes)
+            {
+                <div class="case-card" data-id="@caso.ID_Caso">
+                    <!-- Contenido de la tarjeta igual que antes -->
+                    <div class="case-header">
+                        <div class="case-title">
+                            <h3>@caso.Titulo</h3>
+                            <div class="case-state">
+                                <span class="state-icon @GetEstadoClass(caso.Estado)"></span>
+                                <span class="state-text">@GetEstadoText(caso.Estado)</span>
+                            </div>
+                        </div>
+                        <span class="status-badge pending">
+                            <i class="fas fa-clock"></i> Pendiente
+                        </span>
+                        <i class="fas fa-chevron-down expand-icon"></i>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-content">
+                            @if (caso.Imagen != null && caso.Imagen.Length > 0)
+                            {
+                                <div class="case-image-container">
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(caso.Imagen)" alt="Imagen del equipo" class="case-image" />
+                                </div>
+                            }
+                            <div class="case-details">
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-align-left"></i> Descripción</h4>
+                                    <p>@caso.Descripcion</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-info-circle"></i> Detalles</h4>
+                                    <div class="detail-grid">
+                                        <div class="detail-item">
+                                            <i class="fas fa-user"></i>
+                                            <span>@caso.Nombre_Usuario @caso.Apellidos</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>@caso.Email</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="no-cases-message">
+                <i class="fas fa-check-circle"></i>
+                <p>No hay casos pendientes de envío</p>
+            </div>
+        }
+    </div>
+
+    <div class="tab-content" id="proceso">
+        @{
+            var enProceso = Model
+            .Where(c => c.Fecha_Ingreso.HasValue &&
+            c.Fecha_Ingreso.Value.Year > 2000 &&
+            c.Estado_Atencion == "No Atendido")
+            .ToList();
+        }
+        @if (enProceso.Any())
+        {
+            @foreach (var caso in enProceso)
+            {
+                <div class="case-card" data-id="@caso.ID_Caso">
+                    <!-- Contenido de la tarjeta igual que antes -->
+                    <div class="case-header">
+                        <div class="case-title">
+                            <h3>@caso.Titulo</h3>
+                            <div class="case-state">
+                                <span class="state-icon @GetEstadoClass(caso.Estado)"></span>
+                                <span class="state-text">@GetEstadoText(caso.Estado)</span>
+                            </div>
+                        </div>
+                        <span class="status-badge process">
+                            <i class="fas fa-tools"></i> En Proceso
+                        </span>
+                        <i class="fas fa-chevron-down expand-icon"></i>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-content">
+                            @if (caso.Imagen != null && caso.Imagen.Length > 0)
+                            {
+                                <div class="case-image-container">
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(caso.Imagen)" alt="Imagen del equipo" class="case-image" />
+                                </div>
+                            }
+                            <div class="case-details">
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-align-left"></i> Descripción</h4>
+                                    <p>@caso.Descripcion</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-info-circle"></i> Detalles</h4>
+                                    <div class="detail-grid">
+                                        <div class="detail-item">
+                                            <i class="fas fa-user"></i>
+                                            <span>@caso.Nombre_Usuario @caso.Apellidos</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>@caso.Email</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            <span>Iniciado: @caso.Fecha_Ingreso</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="no-cases-message">
+                <i class="fas fa-check-circle"></i>
+                <p>No hay casos en proceso de reparación</p>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/casosPendientes.js" asp-append-version="true"></script>
+}
+
+@functions {
+    string GetEstadoClass(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "new",
+            'P' => "used",
+            'R' => "minor-damage",
+            'G' => "functional-damage",
+            _ => ""
+        };
+    }
+
+    string GetEstadoText(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "Nuevo",
+            'P' => "Usado",
+            'R' => "Daños mínimos",
+            'G' => "Daños funcionales",
+            _ => "Desconocido"
+        };
+    }
+}

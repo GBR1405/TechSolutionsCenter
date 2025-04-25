@@ -1,0 +1,337 @@
+﻿@model IEnumerable<TechSolutionsCenter.Models.CasosModel>
+@{
+    ViewData["Title"] = "Casos por Atender";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="~/css/Casos" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="~/css/CasoPendienteUsuario.css" asp-append-version="true" />
+
+<style>
+    /* Estilos para la barra de búsqueda */
+    .search-bar {
+        max-width: 600px;
+        margin: 0 auto 2rem;
+    }
+
+    #searchInput {
+        border-radius: 50px 0 0 50px;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid #ddd;
+    }
+
+    #searchButton {
+        border-radius: 0 50px 50px 0;
+        padding: 0 1.5rem;
+    }
+
+    /* Estilos para los botones de asignar */
+    .assign-button {
+        background-color: #25175d;
+        color: white;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 0.3s ease;
+        margin-left: 1rem;
+    }
+
+        .assign-button:hover {
+            background-color: #3a2a7c;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .assign-button i {
+            font-size: 0.9rem;
+        }
+
+    /* Estilos para la información de fecha/usuario */
+    .case-meta {
+        display: flex;
+        gap: 1rem;
+        margin-top: 0.5rem;
+        font-size: 0.9rem;
+        color: #7f8c8d;
+    }
+
+        .case-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+
+        .case-meta i {
+            font-size: 0.8rem;
+        }
+
+    /* Estilos para el mensaje de "no hay casos" */
+    .no-cases-message {
+        text-align: center;
+        padding: 3rem;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        margin-top: 2rem;
+        color: #6c757d;
+    }
+
+        .no-cases-message i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #adb5bd;
+        }
+
+        .no-cases-message p {
+            font-size: 1.2rem;
+            margin-bottom: 0;
+        }
+
+        .no-cases-message .subtext {
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+</style>
+
+<div class="cases-container">
+    <h1 class="page-title">
+        <i class="fas fa-list-check me-2"></i>Casos por Atender
+    </h1>
+
+    <!-- Barra de búsqueda -->
+    <div class="search-bar mb-4">
+        <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Buscar por título o usuario...">
+            <button class="btn btn-primary" id="searchButton">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Lista de casos -->
+    <div class="cases-list">
+        @{
+            var casosOrdenados = Model
+            .Where(c => c.Fecha_Ingreso.HasValue)
+            .OrderBy(c => c.Fecha_Ingreso)
+            .ToList();
+        }
+
+        @if (casosOrdenados.Any())
+        {
+            @foreach (var caso in casosOrdenados)
+            {
+                <div class="case-card" data-id="@caso.ID_Caso">
+                    <div class="case-header">
+                        <div class="case-title">
+                            <h3>@caso.Titulo</h3>
+                            <div class="case-meta">
+                                <span class="case-date">
+                                    <i class="fas fa-calendar-alt"></i> @caso.Fecha_Ingreso?.ToString("dd/MM/yyyy")
+                                </span>
+                                <span class="case-user">
+                                    <i class="fas fa-user"></i> @caso.Nombre_Usuario @caso.Apellidos
+                                </span>
+                            </div>
+                        </div>
+                        <button class="assign-button" data-id="@caso.ID_Caso">
+                            <i class="fas fa-user-check"></i> Asignar
+                        </button>
+                        <i class="fas fa-chevron-down expand-icon"></i>
+                    </div>
+
+                    <div class="case-body">
+                        <div class="case-content">
+                            @if (caso.Imagen != null && caso.Imagen.Length > 0)
+                            {
+                                <div class="case-image-container">
+                                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(caso.Imagen)"
+                                         alt="Imagen del caso" class="case-image" />
+                                </div>
+                            }
+                            <div class="case-details">
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-align-left"></i> Descripción</h4>
+                                    <p>@caso.Descripcion</p>
+                                </div>
+                                <div class="detail-section">
+                                    <h4><i class="fas fa-info-circle"></i> Detalles</h4>
+                                    <div class="detail-grid">
+                                        <div class="detail-item">
+                                            <i class="fas fa-envelope"></i>
+                                            <span>@caso.Email</span>
+                                        </div>
+                                        <div class="detail-item">
+                                            <i class="fas fa-tag"></i>
+                                            <span>@GetEstadoText(caso.Estado)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="no-cases-message">
+                <i class="fas fa-inbox"></i>
+                <p>No tienes casos vinculados en este momento</p>
+                <p class="subtext">Cuando haya nuevos casos disponibles, aparecerán aquí</p>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Modal de Confirmación -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="confirmModalLabel">
+                    <i class="fas fa-user-check me-2"></i>Confirmar Asignación
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>¿Estás seguro que deseas asignarte este caso?</p>
+                <div class="alert alert-info mt-3">
+                    <i class="fas fa-info-circle me-2"></i>
+                    Una vez asignado, serás responsable de gestionar este caso hasta su resolución.
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fas fa-times me-2"></i>Cancelar
+                </button>
+                <button type="button" class="btn btn-primary" id="confirmAssignBtn">
+                    <i class="fas fa-check me-2"></i>Confirmar Asignación
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Variables globales para el modal
+        let currentCaseId = null;
+        const confirmModal = new bootstrap.Modal(document.getElementById('confirmModal'));
+
+        // Funcionalidad de búsqueda
+        document.getElementById('searchButton').addEventListener('click', function() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const cards = document.querySelectorAll('.case-card');
+
+            cards.forEach(card => {
+                const title = card.querySelector('h3').textContent.toLowerCase();
+                const user = card.querySelector('.case-user').textContent.toLowerCase();
+
+                if (title.includes(searchTerm) || user.includes(searchTerm)) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+
+        // Funcionalidad de asignación con modal
+        document.querySelectorAll('.assign-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.stopPropagation();
+                currentCaseId = this.getAttribute('data-id');
+                confirmModal.show();
+            });
+        });
+
+        // Confirmación de asignación
+        document.getElementById('confirmAssignBtn').addEventListener('click', function() {
+            const button = this;
+            button.disabled = true;
+            button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Procesando...';
+
+            $.ajax({
+                url: '@Url.Action("AsignarCaso", "CasoAtendido")',
+                type: 'POST',
+                data: { id: currentCaseId },
+                success: function(data) {
+                    if (data.success) {
+                        showAlert('success', '¡Caso asignado!', data.message);
+                        if (data.redirectUrl) {
+                            setTimeout(() => {
+                                window.location.href = data.redirectUrl;
+                            }, 1500);
+                        } else {
+                            document.querySelector(`.case-card[data-id="${currentCaseId}"]`).remove();
+                        }
+                    } else {
+                        showAlert('error', 'Error', data.message);
+                    }
+                },
+                error: function(xhr) {
+                    showAlert('error', 'Error', xhr.responseJSON?.message || 'Error al procesar');
+                },
+                complete: function() {
+                    confirmModal.hide();
+                    button.disabled = false;
+                    button.innerHTML = '<i class="fas fa-check me-2"></i> Confirmar Asignación';
+                }
+            });
+        });
+
+        // Funcionalidad de expandir/colapsar
+        document.querySelectorAll('.case-header').forEach(header => {
+            header.addEventListener('click', function() {
+                this.parentElement.classList.toggle('expanded');
+                const icon = this.querySelector('.expand-icon');
+                icon.classList.toggle('fa-chevron-up');
+                icon.classList.toggle('fa-chevron-down');
+            });
+        });
+
+        // Función para mostrar alertas bonitas
+        function showAlert(type, title, message) {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type} alert-dismissible fade show position-fixed`;
+            alertDiv.style.top = '20px';
+            alertDiv.style.right = '20px';
+            alertDiv.style.zIndex = '9999';
+            alertDiv.style.minWidth = '300px';
+            alertDiv.role = 'alert';
+
+            alertDiv.innerHTML = `
+                <strong>${title}</strong> ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            `;
+
+            document.body.appendChild(alertDiv);
+
+            // Auto-eliminar después de 5 segundos
+            setTimeout(() => {
+                const bsAlert = new bootstrap.Alert(alertDiv);
+                bsAlert.close();
+            }, 5000);
+        }
+    </script>
+}
+
+@functions {
+    string GetEstadoText(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "Nuevo",
+            'P' => "Usado",
+            'R' => "Daños mínimos",
+            'G' => "Daños funcionales",
+            _ => "Desconocido"
+        };
+    }
+}

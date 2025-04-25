@@ -1,0 +1,305 @@
+﻿:root {
+    --primary-color: #322ad3;
+    --primary-light: #5a54e0;
+    --secondary-color: #4bc4d3;
+    --secondary-light: #6fd1dd;
+    --light-bg: #f8f9fa;
+    --dark-text: #343a40;
+    --light-text: #6c757d;
+    --new-color: #28a745;
+    --used-color: #17a2b8;
+    --minor-damage-color: #ffc107;
+    --functional-damage-color: #dc3545;
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+.full-width-container {
+    width: 100%;
+    padding: 20px 40px 60px;
+    background-color: var(--light-bg);
+    min-height: calc(100vh - 180px);
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.header-container {
+    margin-bottom: 2.5rem;
+}
+
+.page-title {
+    font-weight: 700;
+    color: var(--dark-text);
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    position: relative;
+    display: inline-block;
+    margin-top:50px;
+    text-align:center;
+}
+
+    .page-title::after {
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 4px;
+        background: var(--primary-color);
+        border-radius: 2px;
+    }
+
+.page-subtitle {
+    color: var(--light-text);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.cases-card {
+    border-radius: 12px;
+    box-shadow: var(--card-shadow);
+    border: none;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+
+.card-header {
+    padding: 1.25rem 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border-bottom: none;
+}
+
+.header-badge .badge {
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table-header {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+    .table-header th {
+        padding: 15px 12px;
+        vertical-align: middle;
+    }
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    padding: 15px 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.user-info {
+    line-height: 1.3;
+}
+
+.user-name {
+    font-weight: 500;
+}
+
+.user-email {
+    font-size: 0.85rem;
+}
+
+.description-text {
+    cursor: help;
+    transition: var(--transition);
+}
+
+    .description-text:hover {
+        color: var(--primary-color);
+    }
+
+.estado-badge {
+    padding: 6px 12px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    min-width: 110px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.badge-new {
+    background-color: var(--new-color);
+    color: white;
+}
+
+.badge-used {
+    background-color: var(--used-color);
+    color: white;
+}
+
+.badge-minor-damage {
+    background-color: var(--minor-damage-color);
+    color: var(--dark-text);
+}
+
+.badge-functional-damage {
+    background-color: var(--functional-damage-color);
+    color: white;
+}
+
+.btn-success {
+    background-color: var(--new-color);
+    border-color: var(--new-color);
+    transition: var(--transition);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    padding: 5px 12px;
+    border-radius: 50px;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+        border-color: #1e7e34;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+    }
+
+.btn-info {
+    background-color: var(--used-color);
+    border-color: var(--used-color);
+    transition: var(--transition);
+    padding: 5px 12px;
+    border-radius: 50px;
+}
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(23, 162, 184, 0.3);
+    }
+
+.dataTables_wrapper .dataTables_filter input {
+    border-radius: 50px;
+    border: 1px solid #dee2e6;
+    padding: 5px 15px;
+    margin-left: 10px;
+    transition: var(--transition);
+}
+
+    .dataTables_wrapper .dataTables_filter input:focus {
+        border-color: var(--primary-light);
+        box-shadow: 0 0 0 0.2rem rgba(50, 42, 211, 0.25);
+    }
+
+.dataTables_wrapper .dataTables_length select {
+    border-radius: 50px;
+    border: 1px solid #dee2e6;
+    padding: 5px 15px;
+    transition: var(--transition);
+}
+
+    .dataTables_wrapper .dataTables_length select:focus {
+        border-color: var(--primary-light);
+        box-shadow: 0 0 0 0.2rem rgba(50, 42, 211, 0.25);
+    }
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    border-radius: 50px !important;
+    margin: 0 2px;
+    transition: var(--transition);
+}
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+        background: var(--primary-color) !important;
+        color: white !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background: var(--primary-light) !important;
+        color: white !important;
+    }
+
+/* Animaciones para las filas */
+tr {
+    transition: var(--transition);
+}
+
+    tr:hover {
+        background-color: rgba(75, 196, 211, 0.05) !important;
+        transform: scale(1.005);
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .full-width-container {
+        padding: 15px 20px 50px;
+    }
+
+    .page-title {
+        font-size: 1.8rem;
+    }
+
+    .page-subtitle {
+        font-size: 1rem;
+    }
+
+    .btn-success, .btn-info {
+        padding: 5px 8px;
+        font-size: 0.8rem;
+    }
+
+    .estado-badge {
+        min-width: 90px;
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+
+    .user-name, .user-email {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 120px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 576px) {
+    .full-width-container {
+        padding: 15px;
+    }
+
+    .card-header h5 {
+        font-size: 1rem;
+    }
+
+    .header-badge .badge {
+        font-size: 0.7rem;
+    }
+
+    .table-header th {
+        font-size: 0.7rem;
+        padding: 10px 5px;
+    }
+
+    .table > tbody > tr > td {
+        padding: 10px 5px;
+        font-size: 0.85rem;
+    }
+
+    .btn-success .fa-check-circle,
+    .btn-info .fa-eye {
+        margin-right: 0 !important;
+    }
+
+    .btn-success span,
+    .btn-deliver span {
+        display: none;
+    }
+}

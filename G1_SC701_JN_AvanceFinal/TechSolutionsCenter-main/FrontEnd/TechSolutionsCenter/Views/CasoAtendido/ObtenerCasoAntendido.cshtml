@@ -1,0 +1,290 @@
+﻿@model TechSolutionsCenterAPI.Models.CasoAtendidoModel
+
+@{
+    ViewData["Title"] = "Caso Atendido - TechSolutions";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@functions {
+    string GetEstadoText(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "Nuevo",
+            'P' => "Usado",
+            'R' => "Daños mínimos",
+            'G' => "Daños funcionales",
+            _ => "Desconocido"
+        };
+    }
+
+    string GetEstadoClass(char? estado)
+    {
+        return estado switch
+        {
+            'N' => "status-new",
+            'P' => "status-used",
+            'R' => "status-minor-damage",
+            'G' => "status-functional-damage",
+            _ => "status-unknown"
+        };
+    }
+}
+
+<link rel="stylesheet" href="~/css/CasoAtendido.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+    @if (TempData["Mensaje"] != null)
+    {
+        <text>
+                Swal.fire({
+                    icon: 'success',
+                    title: '¡Éxito!',
+                    text: '@Html.Raw(TempData["Mensaje"])'
+                });
+        </text>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <text>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: '@Html.Raw(TempData["Error"])'
+                });
+        </text>
+    }
+
+    $(document).ready(function() {
+        $('#finalizarCasoForm').on('submit', function(e) {
+            e.preventDefault();
+
+            var formData = {
+                Caso: $('input[name="Caso"]').val(),
+                comentario: $('#comentario').val(),
+                estadoFinal: $('#estadoFinal').val()
+            };
+
+            $.ajax({
+                url: '@Url.Action("FinalizarCaso", "CasoAtendido")',
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    if (response.success) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: '¡Éxito!',
+                            text: response.message
+                        }).then(() => {
+                            window.location.href = response.redirectUrl;
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error',
+                            text: response.message
+                        });
+                    }
+                },
+                error: function(xhr, status, error) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Ocurrió un error al procesar la solicitud: ' + error
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+<div class="full-width-container">
+    <h1 class="page-title">
+        <i class="fas fa-clipboard-check me-2"></i>Caso Atendido
+    </h1>
+
+    <div class="case-container">
+        <div class="row g-0 h-100">
+            <!-- Sección principal del caso -->
+            <div class="col-lg-12 h-100">
+                <div class="case-details-section">
+                    <div class="case-header">
+                        <h3>@Model.Titulo</h3>
+                        <span class="status-badge @GetEstadoClass(Model.Estado)">
+                            @GetEstadoText(Model.Estado)
+                        </span>
+                    </div>
+
+                    <div class="case-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-user"></i>
+                            <span>@Model.Nombre_Usuario</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>@Model.Email</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-calendar-day"></i>
+                            <span>Ingreso: @Model.Fecha_Ingreso?.ToString("dd/MM/yyyy HH:mm")</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-calendar-check"></i>
+                            <span>Atención: @Model.Fecha_Atencion?.ToString("dd/MM/yyyy HH:mm")</span>
+                        </div>
+                        @if (Model.Fecha_Finalizado.HasValue)
+                        {
+                            <div class="meta-item">
+                                <i class="fas fa-flag-checkered"></i>
+                                <span>Finalizado: @Model.Fecha_Finalizado?.ToString("dd/MM/yyyy HH:mm")</span>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="case-description">
+                        <h4><i class="fas fa-align-left me-2"></i>Descripción</h4>
+                        <p>@Model.Descripcion</p>
+                    </div>
+
+                    @if (Model.Imagen != null)
+                    {
+                        <div class="case-image">
+                            <h4><i class="fas fa-image me-2"></i>Imagen Adjunta</h4>
+                            <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Imagen)"
+                                 alt="Imagen del caso"
+                                 class="img-fluid rounded">
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Sección de Finalización -->
+            <div class="col-lg-12 mt-4">
+                <div class="completion-section">
+                    @if (!Model.Fecha_Finalizado.HasValue)
+                    {
+                        <form id="finalizarCasoForm" method="post">
+                            <input type="hidden" name="Caso" value="@Model.ID_CasoAtendido" />
+                            <h3><i class="fas fa-flag-checkered me-2"></i>Finalizar Caso</h3>
+
+                            <div class="form-group mb-3">
+                                <label for="comentario">Comentario final:</label>
+                                <textarea id="comentario" name="comentario" class="form-control" rows="4" required
+                                          placeholder="Describe la solución aplicada y el estado final del equipo"></textarea>
+                            </div>
+
+                            <div class="form-group mb-3">
+                                <label for="estadoFinal">Estado final del equipo:</label>
+                                <select id="estadoFinal" name="estadoFinal" class="form-select" required>
+                                    <option value="">Seleccione un estado</option>
+                                    <option value="N">Nuevo</option>
+                                    <option value="P">Usado</option>
+                                    <option value="R">Daños mínimos</option>
+                                    <option value="G">Daños funcionales</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="btn-complete">
+                                <i class="fas fa-check-circle me-2"></i>Finalizar Caso
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="completed-info">
+                            <h3><i class="fas fa-check-circle text-success me-2"></i>Caso Finalizado</h3>
+                            <p>Este caso fue marcado como finalizado el @Model.Fecha_Finalizado?.ToString("dd/MM/yyyy HH:mm")</p>
+
+                            @if (!string.IsNullOrEmpty(Model.comentario))
+                            {
+                                <div class="final-comment mt-3">
+                                    <h5><i class="fas fa-comment me-2"></i>Comentario final:</h5>
+                                    <p class="comment-text">@Model.comentario</p>
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        /* Ajustes para la nueva disposición */
+        .case-container {
+            padding: 20px;
+        }
+
+        .completion-section {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .btn-complete {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+            .btn-complete:hover {
+                background-color: #218838;
+            }
+
+        .status-badge {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .status-new {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .status-used {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+
+        .status-minor-damage {
+            background-color: #ffeeba;
+            color: #856404;
+        }
+
+        .status-functional-damage {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        .status-unknown {
+            background-color: #e2e3e5;
+            color: #383d41;
+        }
+
+        .final-comment {
+            background-color: #f1f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #4dabf7;
+        }
+
+        .final-status {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+}

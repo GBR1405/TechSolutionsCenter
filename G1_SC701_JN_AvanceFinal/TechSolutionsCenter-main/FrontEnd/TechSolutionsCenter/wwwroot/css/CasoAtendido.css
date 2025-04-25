@@ -1,0 +1,288 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+:root {
+    --primary-color: #322ad3;
+    --secondary-color: #4bc4d3;
+    --light-bg: #f8f9fa;
+    --dark-text: #343a40;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+.full-width-container {
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px 20px 60px;
+    background-color: var(--light-bg);
+    min-height: calc(100vh - 180px);
+    box-sizing: border-box;
+}
+
+.case-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+/* Sección principal del caso */
+.case-details-section {
+    padding: 2rem;
+    height: 100%;
+}
+
+.case-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+    .case-header h3 {
+        margin: 0;
+        color: var(--primary-color);
+    }
+
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.status-active {
+    background-color: var(--warning-color);
+    color: #000;
+}
+
+.status-completed {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.case-meta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--dark-text);
+}
+
+    .meta-item i {
+        color: var(--primary-color);
+    }
+
+.case-description {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f8fafc;
+    border-radius: 10px;
+}
+
+    .case-description h4 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+.case-image {
+    margin-top: 2rem;
+}
+
+    .case-image h4 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+    .case-image img {
+        max-width: 100%;
+        max-height: 300px;
+        border: 1px solid #eee;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+/* Sección de inventario */
+.inventory-section, .completion-section {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.05);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+    .section-header h3 {
+        margin: 0;
+        color: var(--primary-color);
+        font-size: 1.2rem;
+    }
+
+.btn-inventory-action {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+    .btn-inventory-action:hover {
+        background: #1a14a0;
+    }
+
+.inventory-items {
+    min-height: 150px;
+}
+
+.empty-inventory {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+}
+
+    .empty-inventory i {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: #dee2e6;
+    }
+
+/* Sección de finalización */
+.completion-section h3 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn-complete {
+    background: var(--success-color);
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 1rem;
+    transition: all 0.3s;
+}
+
+    .btn-complete:hover {
+        background: #218838;
+        transform: translateY(-2px);
+    }
+
+.completed-info {
+    text-align: center;
+    padding: 1rem;
+}
+
+    .completed-info h3 {
+        color: var(--success-color);
+    }
+
+/* Modal de inventario */
+.inventory-modal-content {
+    padding: 1rem;
+}
+
+.available-items, .selected-items {
+    margin-top: 1rem;
+}
+
+    .available-items h6, .selected-items h6 {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+    }
+
+.quantity-input {
+    width: 60px;
+    margin-right: 0.5rem;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .case-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width-container {
+        padding: 15px 15px 50px;
+        min-height: calc(100vh - 160px);
+    }
+}
+
+/* Estados del equipo */
+.status-badge {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.status-new {
+    background-color: #28a745; /* Verde */
+}
+
+.status-used {
+    background-color: #17a2b8; /* Azul claro */
+}
+
+.status-minor-damage {
+    background-color: #ffc107; /* Amarillo */
+    color: #000;
+}
+
+.status-functional-damage {
+    background-color: #dc3545; /* Rojo */
+}
+
+.status-unknown {
+    background-color: #6c757d; /* Gris */
+}
+
+/* Comentario final */
+.final-comment {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.comment-text {
+    white-space: pre-line;
+}
+
+/* Formulario de finalización */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+    .form-group label {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        display: block;
+    }

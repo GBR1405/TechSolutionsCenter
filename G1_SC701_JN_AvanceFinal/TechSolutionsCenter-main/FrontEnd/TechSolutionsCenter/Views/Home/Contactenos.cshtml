@@ -1,0 +1,361 @@
+﻿@{
+    ViewData["Title"] = "Contáctenos - TechSolutions Center";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section Styles {
+    <style>
+        :root {
+            --primary-color: #322ad3;
+            --secondary-color: #4bc4d3;
+            --dark-color: #1a1a2e;
+            --light-color: #f8f9fa;
+            --accent-color: #ff6b6b;
+        }
+
+        .contact-hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 6rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .contact-hero::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+                opacity: 0.15;
+            }
+
+        .contact-hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .contact-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-container {
+            max-width: 1200px;
+            margin: 4rem auto;
+            padding: 0 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+        }
+
+        .contact-info {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .info-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+            .info-card h3 {
+                color: var(--primary-color);
+                margin-bottom: 1.5rem;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .info-card i {
+                font-size: 1.5rem;
+            }
+
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+            .contact-item i {
+                color: var(--secondary-color);
+                font-size: 1.25rem;
+                margin-top: 0.25rem;
+            }
+
+        .contact-text h4 {
+            margin-bottom: 0.25rem;
+            color: var(--dark-color);
+        }
+
+        .contact-text p, .contact-text a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+            .contact-text a:hover {
+                color: var(--primary-color);
+            }
+
+        .form-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                font-weight: 500;
+                color: var(--dark-color);
+            }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+            .form-control:focus {
+                outline: none;
+                border-color: var(--secondary-color);
+            }
+
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .btn-submit {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .btn-submit:hover {
+                background-color: #2a23b8;
+                transform: translateY(-2px);
+            }
+
+        .map-container {
+            margin-top: 4rem;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+            .map-container iframe {
+                width: 100%;
+                height: 400px;
+                border: none;
+            }
+
+        .business-hours {
+            margin-top: 1.5rem;
+        }
+
+        .hour-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+            .hour-item:last-child {
+                border-bottom: none;
+            }
+
+        .day {
+            font-weight: 500;
+        }
+
+        .hours {
+            color: #666;
+        }
+
+        @@media (max-width: 768px) {
+            .contact-hero h1 {
+                font-size: 2.25rem;
+            }
+
+            .contact-hero p {
+                font-size: 1.1rem;
+            }
+
+            .contact-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+}
+
+<div class="contact-hero">
+    <div class="contact-hero-content">
+        <h1>Estamos aquí para ayudarte</h1>
+        <p>¿Tienes preguntas sobre nuestros servicios o necesitas asistencia técnica? Nuestro equipo está listo para atenderte.</p>
+    </div>
+</div>
+
+<div class="contact-container">
+    <div class="contact-info">
+        <div class="info-card">
+            <h3><i class="fas fa-map-marker-alt"></i> Nuestra Ubicación</h3>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-building"></i>
+                    <div class="contact-text">
+                        <h4>Sede Principal</h4>
+                        <p>San José, Aranjuez, 10101, a la par de ticoAsia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <h3><i class="fas fa-clock"></i> Horario de Atención</h3>
+            <div class="business-hours">
+                <div class="hour-item">
+                    <span class="day">Lunes - Viernes</span>
+                    <span class="hours">8:00 AM - 6:00 PM</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Sábados</span>
+                    <span class="hours">9:00 AM - 2:00 PM</span>
+                </div>
+                <div class="hour-item">
+                    <span class="day">Domingos</span>
+                    <span class="hours">Cerrado</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <h3><i class="fas fa-phone-alt"></i> Contacto Directo</h3>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="contact-text">
+                        <h4>Teléfono</h4>
+                        <a href="tel:+50325252525">+503 2525-2525</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div class="contact-text">
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/50378787878">+503 7878-7878</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-text">
+                        <h4>Email</h4>
+                        <a href="mailto:info@techsolutions.com">info@techsolutions.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="form-card">
+            <h2>Envíanos un mensaje</h2>
+            <p>Responderemos a tu consulta en menos de 24 horas</p>
+
+            <form id="contactForm" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Teléfono (opcional)</label>
+                    <input type="tel" id="phone" name="phone" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Asunto</label>
+                    <select id="subject" name="subject" class="form-control" required>
+                        <option value="" disabled selected>Selecciona un tema</option>
+                        <option value="Consulta general">Consulta general</option>
+                        <option value="Soporte técnico">Soporte técnico</option>
+                        <option value="Cotización">Cotización de servicios</option>
+                        <option value="Reclamo">Reclamo o sugerencia</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d694.7256494541775!2d-84.0685564196135!3d9.937141282275155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scr!4v1743118953510!5m2!1ses-419!2scr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+@section Scripts {
+    <!-- Font Awesome para íconos -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // Aquí iría el código para enviar el formulario
+            alert('Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.');
+            this.reset();
+        });
+    </script>
+}
